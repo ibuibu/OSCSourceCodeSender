@@ -16,10 +16,10 @@ OSCの配信を停止します。
 
 # OSCのパス
 
-``"/editor_text" text`
+`"/editor_text" text`
 ソースコードがリアルタイムで送信されてきます。
 
-``"/run" 1`
+`"/run" 1`
 TidalCyclesなどで`cmd + enter`や`shift + enter`を入力した時に検知してOSCを吐きます。
 
 ## 良いライブコーディングライフを!!
