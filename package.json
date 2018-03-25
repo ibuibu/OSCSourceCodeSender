@@ -1,0 +1,18 @@
+{
+  "name": "osc-sourcecode-sender",
+  "main": "./lib/osc-sourcecode-sender",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "osc-sourcecode-sender:toggle"
+  },
+  "repository": "https://github.com/atom/osc-sourcecode-sender",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "node-osc": "^2.1.0"
+  }
+}

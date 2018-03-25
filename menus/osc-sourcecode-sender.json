@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Init osc-sourcecode-sender",
+        "command": "osc-sourcecode-sender:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "OSCSourceCodeSender",
+          "submenu": [
+            {
+              "label": "Init",
+              "command": "osc-sourcecode-sender:init"
+            },
+            {
+              "label": "Attach Editor",
+              "command": "osc-sourcecode-sender:attachEditor"
+            },
+            {
+              "label": "Close",
+              "command": "osc-sourcecode-sender:close"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
