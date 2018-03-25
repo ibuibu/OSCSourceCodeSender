@@ -1,18 +1,24 @@
 {
-  "name": "osc-sourcecode-sender",
+  "name": "OSCSourceCodeSenderView",
   "main": "./lib/osc-sourcecode-sender",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [],
+  "keywords": [
+    "LiveCoding",
+    "OSC",
+    "Tidal",
+    "GLSL"
+  ],
   "activationCommands": {
-    "atom-workspace": "osc-sourcecode-sender:toggle"
+    "atom-workspace": "osc-sourcecode-sender:init"
   },
-  "repository": "https://github.com/atom/osc-sourcecode-sender",
+  "repository": "https://github.com/nami634/OSCSourceCodeSender",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "node-osc": "^2.1.0"
+    "node-osc": "^2.1.0",
+    "osc-js": "^1.2.2"
   }
 }

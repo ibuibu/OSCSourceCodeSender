@@ -5,8 +5,11 @@
 @import "ui-variables";
 
 .osc-sourcecode-sender {
-  &.message {
+  .message {
     margin-left: @component-padding;
+  }
+  .issue {
+    color: @text-color-error !important;
   }
 
   #port,#host,#send,#close {

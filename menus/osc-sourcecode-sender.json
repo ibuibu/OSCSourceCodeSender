@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Init osc-sourcecode-sender",
-        "command": "osc-sourcecode-sender:toggle"
+        "command": "osc-sourcecode-sender:init"
       }
     ]
   },
