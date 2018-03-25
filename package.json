@@ -1,7 +1,7 @@
 {
   "name": "OSCSourceCodeSenderView",
   "main": "./lib/osc-sourcecode-sender",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Send the source code via OSC in real time for visual coding of live coding",
   "keywords": [
     "LiveCoding",
